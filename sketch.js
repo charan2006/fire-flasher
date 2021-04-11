@@ -225,9 +225,10 @@ function draw() {
     sp2.visible = false;
   }
   if (gamestate === 1) {
-    textFont("Calibri")
+    textFont("Calibri");
+    fill("white");
     textSize(30);
-    text("survival : " + score, 50, 30);
+    text("Score : " + score, 50, 30);
   }
 
 
